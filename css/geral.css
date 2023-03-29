@@ -256,6 +256,10 @@ body {
   display: none;
 }
 
+[data-accordion="accordion"] dt {
+  cursor: pointer;
+}
+
 [data-accordion="accordion"] dt::after {
   content: '⬎';
   margin-left: 10px;
