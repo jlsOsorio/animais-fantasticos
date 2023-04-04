@@ -33,5 +33,7 @@ export default class initFuncionamento {
       this.dadosAgora();
       this.activaAberto();
     }
+
+    return this;
   }
 }
